@@ -4,7 +4,7 @@ const Game = new Schema(
     {
         activityType: { type: String, required: true },
         returnedTicket: {
-            type: Integer, require: true }
+            type: Number, require: true }
     },
     { timestamps: true}
 )

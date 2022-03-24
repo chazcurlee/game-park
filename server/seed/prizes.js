@@ -1,5 +1,5 @@
 const db = require('../db')
-const { Prize } = require('..models')
+const { Prize } = require('../models')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
@@ -8,23 +8,27 @@ const main = async () => {
         {
            cost: 3,
            name: "banans",
-           img:"url"
+           img:"url",
+           bought:false
           
         },
         {
             cost: 3,
            name: "banans",
-           img:"url"
+           img:"url",
+           bought:false
         },
         {
             cost: 3,
            name: "banans",
-           img:"url"
+           img:"url",
+           bought:false
         },
         {
             cost: 3,
            name: "banans",
-           img:"url"
+           img:"url",
+           bought:false
         }
 
     ]
