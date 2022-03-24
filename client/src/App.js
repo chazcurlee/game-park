@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios'
 import { Routes, Route, useRoutes } from 'react-router-dom'
 import './App.css';
 import Home from './components/Home';
@@ -9,6 +10,11 @@ import Showcase from './components/Showcase';
 import GamesNRides from './components/GamesNRides'
 
 function App() {
+
+ 
+
+
+
   return (
     <div className="App">
       <header>
