@@ -28,7 +28,7 @@ const main = async () => {
         }
 
     ]
-    await Prize.insertOne(prizes)
+    await Prize.insertMany(prizes)
     console.log("here are the prizes!")
 }
 
