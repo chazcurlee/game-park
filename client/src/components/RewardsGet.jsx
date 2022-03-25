@@ -15,27 +15,39 @@ const RewardsGet = () => {
     const getPrizes = async () => {
       let res = await axios.get("http://localhost:3001/prizes");
       setPrizes(res.data);
+      console.log(res.data)
 
       prizes.map((ex) => {
-        prizeNameArr.push(ex.name);
-        prizeImgLinkArr.push(ex.img);
-      });
+        prizeNameArr.push(ex.name)
+        prizeImgLinkArr.push(ex.img)
+      })
 
-      setPrizeName(prizeNameArr);
-      setPrizeImg(prizeImgLinkArr);
-    };
+      setPrizeName(prizeNameArr)
+      setPrizeImg(prizeImgLinkArr)
+    }
 
-    getPrizes();
-  }, []);
+    getPrizes()
+  }, [])
 
   console.log(prizes)
 
   return (
     <div>
-      <div>
+        <ul className="thePrizes">
+            {prizes.map((prize) =>  (
+                <li>
+                    <img src={prize.img} alt=''className="prize"/>
+                    <p>{prize.name}</p>
+                    <p>{prize.cost} tickets</p>
+                </li>
+            ))}
+
+        </ul>
+
+      {/* <div>
         <ul className="thePrizes">
           <li>
-            <img src={prizeImg[0]} alt="Rasta Banana" className="prize" />
+            <img src={prizes.map((ex) => { })} alt="Rasta Banana" className="prize" />
             <p>{prizeName[0]}</p>
             <br />
             <p>20 tickets</p>
@@ -75,7 +87,7 @@ const RewardsGet = () => {
             <p>35 tickets</p>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
