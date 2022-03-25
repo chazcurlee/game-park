@@ -14,7 +14,7 @@ const Nav = () => {
                     <img src="https://i.imgur.com/fSCJn3O.png" alt="Home"/></NavLink>
                 </li>
                 <li> <NavLink to="games-n-rides">
-                    <img src="https://i.imgur.com/BMuJp6O.png" alt="Games and Rides"/></NavLink>
+                    <img src="https://i.imgur.com/qUiPXx8.png" alt="Rides and Games"/></NavLink>
                 </li>
                 <li> <NavLink to="/get-token">
                     <img src="https://i.imgur.com/WMiJ3v9.png" alt="Token Farm"/></NavLink>
