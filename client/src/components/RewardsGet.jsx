@@ -1,7 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import React, { useEffect } from "react";
-import { useState } from "react";
 import axios from "axios";
 // import PullData from "./DataPull";
 
@@ -29,6 +27,8 @@ const RewardsGet = () => {
 
     getPrizes();
   }, []);
+
+  console.log(prizes)
 
   return (
     <div>
