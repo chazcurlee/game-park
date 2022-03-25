@@ -1,17 +1,58 @@
 import React from "react";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import axios from 'axios'
+// import PullData from "./DataPull";
 
-const RewardsGet = async () => {
+
+
+
+
+
+
+
+
+const RewardsGet = () => {
 
     const [prizes, setPrizes] = useState()
+    
+    
 
-    const getPrizes = async () => {
 
-        let res = await axios.get('http://localhost:3001/prizes')
-        setPrizes(res)
+    
 
-    }
+    useEffect(() => {
+
+        async function testFunc() {
+
+            let data = await axios.get('http://localhost:3001/prizes')
+            console.log(data)
+
+
+        }
+       
+        testFunc()
+
+
+    }, [])
+    
+
+    
+    
+
+
+        
+
+
+
+   
+
+  
+
+    
+
+    
+
+    
 
     
     
@@ -20,7 +61,7 @@ const RewardsGet = async () => {
     return (
         <div>
             <h1>React is dumb</h1>
-            <p>{prizes}</p>
+            {/* <p>{prizes}</p> */}
         </div>
     )
 
