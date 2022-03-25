@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 import React from "react";
 import { useState, useEffect } from 'react'
-=======
 import React, { useEffect } from "react";
 import { useState } from 'react'
->>>>>>> 407b77a0 (added GET throughput)
 import axios from 'axios'
 // import PullData from "./DataPull";
 
-<<<<<<< HEAD
 
 
 
@@ -59,7 +55,6 @@ const RewardsGet = () => {
     
 
     
-=======
 const RewardsGet = () => {
 
     const [prizes, setPrizes] = useState([])
@@ -69,7 +64,6 @@ const RewardsGet = () => {
 
 
     useEffect(() => {
->>>>>>> 407b77a0 (added GET throughput)
 
         let prizeNameArr = []
         let prizeImgLinkArr = []
