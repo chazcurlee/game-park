@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import GetTickets from './GetTickets';
 import './Nav.css';
 
 
@@ -24,6 +25,7 @@ const Nav = () => {
                 <li> <NavLink to="showcase">
                     <img src="https://i.imgur.com/h02jaxS.png" alt="Showcase" /></NavLink>
                 </li>
+                <li> <GetTickets /></li>
             </ul>
         </div>
         
