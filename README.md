@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Theme Park #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Welcome To Game-Park! ###
+Bring your kids to this  friendly,family budget Game-Park where you are able to ride endless rides and play games till you drop! If you win your game or brave enough to brace the adrenline fueled rides; you will recieve X amount of tickets to trade in for a multitude of prizes!! 
 
-## Available Scripts
+## Features ##
 
-In the project directory, you can run:
+- Framework for application/ databases
+- Ticket Reward Feature
+- Prizes that arent your typical carny value !
+- Importing Games As a possible addition?
+- Beautiful  UI/UX / Design 
+- Then Deployed to Heroku for everyone's enjoyment!
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Trello Board ###
 
-### `npm test`
+https://trello.com/b/kxpHTw8E/gamepark
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ERD ###
 
-### `npm run build`
+https://lucid.app/lucidchart/00470837-0f86-4dab-ac6c-1a095957dccc/edit?invitationId=inv_ab88176b-fb42-4cba-ad43-847af8beb40b&page=0_0#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Features ##
+- Future rides that are almost like the real thing!
+- Endless choices of games !
+- A wider Variety our prizes in the data base!
+- A gambling corner for bored parents with their childs college fund.
