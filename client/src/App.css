@@ -63,5 +63,6 @@
 }
 
 .thePrizes {
-  display: inline-flex
+  display: inline-flex;
+  align-items: flex-end
 }
