@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <div>
-            <img class="welcome" src='https://i.imgur.com/bzuv2Dg.png' alt='Welcome to Game Park'/>
+            <img className="welcome" src='https://i.imgur.com/bzuv2Dg.png' alt='Welcome to Game Park'/>
         </div>
     )
 

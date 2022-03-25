@@ -13,7 +13,7 @@ const GamesNRides = () => {
             <a href="https://learned-hill.surge.sh/index.html"
             //  onClick={handleClick}
              target="_blank">
-                <img src="https://i.imgur.com/Xpunr8j.png" alt="Marsupial Matching!" class="game"/>
+                <img src="https://i.imgur.com/Xpunr8j.png" alt="Marsupial Matching!" className="game"/>
             </a>
         </div>
     )

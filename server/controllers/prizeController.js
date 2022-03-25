@@ -10,9 +10,9 @@ const getPrizes =  async (req, res) => {
 
 }
 
-const pullBoughtPrizes = (req, res) => {
+const pullBoughtPrizes = async (req, res) => {
 
-    let prizes = Prize.find({bought:true})
+    let prizes = await Prize.find({bought:true})
 
     res.send(prizes)
 
@@ -20,22 +20,24 @@ const pullBoughtPrizes = (req, res) => {
 }
 
 
+const postPrizes = async (req, res) => {
+
+    let prize = new Prize()
+
+    prize.cost = req.body.cost
+    prize.name = req.body.name
+    prize.img = req.body.img
+    prize.bought = req.body.bought
+
+    prize.save()
+
+}
 
 
 
-
-// const getPrize = (req, res) => {
-
-//     let 
-
-//     response.send({
-//      message: `Congratulations Winner! Here's your `
-
-//     })
-// },
 
 module.exports ={
     getPrizes,
-    pullBoughtPrizes
- //getPrize
+    pullBoughtPrizes,
+    postPrizes
 }

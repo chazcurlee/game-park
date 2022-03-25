@@ -15,6 +15,8 @@ const prizeController = require('./controllers/prizeController')
 
 app.get('/prizes',  prizeController.getPrizes)
 
+app.post('/prizes', prizeController.postPrizes)
+
 
 
 
