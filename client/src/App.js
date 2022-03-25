@@ -27,8 +27,8 @@ const App = () => {
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/get-token" element={<GetToken />} />
         <Route path="games-n-rides" element={<GamesNRides />} />
+        <Route path="/get-token" element={<GetToken />} />
         <Route path="rewards-get" element={<RewardsGet />} />
         <Route path="showcase" element={<Showcase />} />
         {/* <Route path="datapull" element={<PullData />} /> */}

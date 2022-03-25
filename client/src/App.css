@@ -40,3 +40,18 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+.welcome {
+  height: 400px;
+  width: auto;
+}
+
+.prize {
+  height: 300px;
+  width: auto;
+}
+
+.game {
+  height: 300px;
+  width: auto;
+}
