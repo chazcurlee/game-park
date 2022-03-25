@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './Nav.css';
 
 
 const Nav = () => {
@@ -9,11 +10,21 @@ const Nav = () => {
     return (
         <div>
             <ul>
-                <li> <NavLink to="/">Home</NavLink></li>
-                <li> <NavLink to="/get-token">Token Farm</NavLink></li>
-                <li> <NavLink to="games-n-rides">Games and Rides</NavLink></li>
-                <li> <NavLink to="rewards-get">Get Rewards</NavLink></li>
-                <li> <NavLink to="showcase">Showcase</NavLink></li>
+                <li> <NavLink to="/">
+                    <img src="https://i.imgur.com/fSCJn3O.png" alt="Home"/></NavLink>
+                </li>
+                <li> <NavLink to="games-n-rides">
+                    <img src="https://i.imgur.com/qUiPXx8.png" alt="Rides and Games"/></NavLink>
+                </li>
+                <li> <NavLink to="/get-token">
+                    <img src="https://i.imgur.com/WMiJ3v9.png" alt="Token Farm"/></NavLink>
+                </li>
+                <li> <NavLink to="rewards-get">
+                    <img src="https://i.imgur.com/vtj8I4S.png" alt="Prizes"/></NavLink>
+                </li>
+                <li> <NavLink to="showcase">
+                    <img src="https://i.imgur.com/h02jaxS.png" alt="Showcase" /></NavLink>
+                </li>
             </ul>
         </div>
         

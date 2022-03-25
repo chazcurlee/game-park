@@ -5,7 +5,9 @@ const GamesNRides = () => {
 
     return (
         <div>
-            <h1>React is dumb</h1>
+            <a href="https://learned-hill.surge.sh/index.html">
+                <img src="https://i.imgur.com/Xpunr8j.png" alt="Marsupial Matching!" class="game"/>
+            </a>
         </div>
     )
 
