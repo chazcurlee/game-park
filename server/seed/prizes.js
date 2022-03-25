@@ -7,29 +7,29 @@ const main = async () => {
     const prizes =[
         {
            cost: 3,
-           name: "Mr. Bear",
-           img:"https://i.pinimg.com/736x/f5/2a/40/f52a4005be58e5d4aa5a3aceda1e0f59--carnival-prizes-yellow-and-brown.jpg",
+           name: "banans",
+           img:"url",
            bought:false
           
         },
-        // {
-        //     cost: 3,
-        //    name: "banans",
-        //    img:"url",
-        //    bought:false
-        // },
-        // {
-        //     cost: 3,
-        //    name: "banans",
-        //    img:"url",
-        //    bought:false
-        // },
-        // {
-        //     cost: 3,
-        //    name: "banans",
-        //    img:"url",
-        //    bought:false
-        // }
+        {
+            cost: 3,
+           name: "banans",
+           img:"url",
+           bought:false
+        },
+        {
+            cost: 3,
+           name: "banans",
+           img:"url",
+           bought:false
+        },
+        {
+            cost: 3,
+           name: "banans",
+           img:"url",
+           bought:false
+        }
 
     ]
     await Prize.insertMany(prizes)
