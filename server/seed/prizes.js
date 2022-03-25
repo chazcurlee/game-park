@@ -7,27 +7,39 @@ const main = async () => {
     const prizes =[
         {
            cost: 3,
-           name: "banans",
-           img:"url",
+           name: "Rasta Banana",
+           img:'https://i.imgur.com/F84yv0K.png',
            bought:false
           
         },
         {
             cost: 3,
-           name: "banans",
-           img:"url",
+           name: "Teddy Bear",
+           img:"https://i.imgur.com/GEwjEYH.png",
            bought:false
         },
         {
             cost: 3,
-           name: "banans",
-           img:"url",
+           name: "A Totally Real Car",
+           img:"https://i.imgur.com/V5Vw9Ik.png",
            bought:false
         },
         {
             cost: 3,
-           name: "banans",
-           img:"url",
+           name: "Chicken",
+           img:"https://i.imgur.com/KO6oilE.png",
+           bought:false
+        },
+        {
+            cost: 3,
+           name: "Goldfish",
+           img:"https://i.imgur.com/olsQrkE.png",
+           bought:false
+        },
+        {
+            cost: 3,
+           name: "Watch",
+           img:"https://i.imgur.com/PzprEHO.png",
            bought:false
         }
 
