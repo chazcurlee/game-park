@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+// possibly readd { useState }
 
 const GamesNRides = () => {
-    const [counter, setCounter] = useState(0)
+    // const [counter, setCounter] = useState(0)
         
-    const handleClick = () => {
-        setCounter(counter + 1)
-    }
+    // const handleClick = () => {
+    //     setCounter(counter + 1)
+    // }
 
     return (
         <div>
-            <div style={{
+            {/* <div style={{
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'flex-end',
@@ -24,9 +25,9 @@ const GamesNRides = () => {
             }}>
               {counter}
             </div>
-        </div>
+        </div> */}
             <a href="https://learned-hill.surge.sh/index.html"
-             onClick={handleClick}
+            //  onClick={handleClick}
              target="_blank">
                 <img src="https://i.imgur.com/Xpunr8j.png" alt="Marsupial Matching!" class="game"/>
             </a>
