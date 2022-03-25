@@ -7,10 +7,6 @@
   pointer-events: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -54,4 +50,18 @@ ul {
 .game {
   height: 300px;
   width: auto;
+}
+
+#watch {
+  height: 200px;
+  width: auto;
+}
+
+#car {
+  height: 250px;
+  width: auto;
+}
+
+.thePrizes {
+  display: inline-flex
 }
